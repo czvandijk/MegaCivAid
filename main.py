@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.sidebar.header("Welcome")
+
 st.set_page_config(
     page_title="Game Assistance App",
     page_icon="🎲",
