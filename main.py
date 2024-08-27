@@ -6,9 +6,6 @@ st.set_page_config(
     layout="wide",
 )
 
-# Set the page configuration with the title "Welcome"
-st.set_page_config(page_title="Welcome", layout="wide")
-
 # Main page content
 st.title("Game Assistance App")
 st.write("""
