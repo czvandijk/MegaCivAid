@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.page_link("main.py", label="Welcome", icon="🏠")
+
 st.set_page_config(
     page_title="Game Assistance App",
     page_icon="🎲",
