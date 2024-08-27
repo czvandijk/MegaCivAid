@@ -10,13 +10,13 @@ def main():
         st.page_link('pages/4_calamities.py', label='Calamities', icon='🛡️')
     st.title(f'🔥 Individual Checker')
 
-st.set_page_config(
+'''st.set_page_config(
     page_title="Game Assistance App",
     page_icon="🎲",
     layout="wide",
-)
+)'''
 
-# Main page content
+'''# Main page content
 st.title("Game Assistance App")
 st.write("""
 Welcome to the multi-functional game assistance app! Use the sidebar to navigate between different tools: 
@@ -24,7 +24,7 @@ Welcome to the multi-functional game assistance app! Use the sidebar to navigate
 - Advancement Helper
 - City Calculator
 - Calamities Overview
-""")
+""")'''
 
 if __name__ == '__main__':
     main()
