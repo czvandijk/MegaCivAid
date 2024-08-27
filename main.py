@@ -6,9 +6,11 @@ st.set_page_config(
     layout="wide",
 )
 
+# Set the page configuration with the title "Welcome"
+st.set_page_config(page_title="Welcome", layout="wide")
+
 # Main page content
 st.title("Game Assistance App")
-st.sidebar.header("Welcome")
 st.write("""
 Welcome to the multi-functional game assistance app! Use the sidebar to navigate between different tools: 
 - Movement Tool
