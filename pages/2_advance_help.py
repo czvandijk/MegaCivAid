@@ -431,7 +431,7 @@ for advancement in unowned_advancements:
     color_background = get_group_color(advancement.groups)
 
     st.markdown(
-        f'<div style="padding: 10px; border: 1px solid #ddd; {color_background}">'
+        f'<div style="padding: 10px; border: 1px solid #ddd; {color_background}; color: black;">'
         f'<strong>{advancement.name}</strong><br>'
         f'Description: {advancement.description}<br>'
         f'Calamity effects: {advancement.calamity_effect}<br>'
@@ -484,20 +484,3 @@ for group, discount in group_discounts.items():
         f'{group}</div>: {discount}',
         unsafe_allow_html=True
     )
-
-
-# Button to reset selections --> For some reason this doesn't work. This could be fixed in the future.
-if st.button("Reset Selections"):
-    # Reset session state variables for selected advances and discounts
-    st.session_state.selected_advances = []
-    st.session_state.claimed_free_science = False
-    st.session_state.applied_library_discount = False
-    st.session_state.written_record_tokens = {"Arts": 0, "Civics": 0, "Religion": 0, "Science": 0, "Crafts": 0}
-    st.session_state.monument_tokens = {"Arts": 0, "Civics": 0, "Religion": 0, "Science": 0, "Crafts": 0}
-    st.session_state.written_record_locked = False  # Unlock Written Record for further use
-    st.session_state.monument_locked = False        # Unlock Monument for further use
-    
-    # Reset any other custom states if necessary
-    st.session_state.final_distribution_locked = False  # Unlock the final distribution
-    
-    st.rerun()  # Refresh the page to reflect reset state
