@@ -28,3 +28,5 @@ def license_and_info():
     
     # Buy Me a Coffee
     st.write("If you'd like to support my work, feel free to [buy me a coffee](https://buymeacoffee.com/chrisvandijk)!")
+
+license_and_info()
