@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Title of the app
+# Title of the app 
 st.title("Calamities in the Game")
 
 # Available advancements for the user to select, sorted in alphabetical order

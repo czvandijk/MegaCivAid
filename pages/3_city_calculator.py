@@ -1,7 +1,6 @@
 import streamlit as st
-import math
 
-# Title of the app
+# Title of the app 
 st.title("City Building Calculator")
 
 # Instructions

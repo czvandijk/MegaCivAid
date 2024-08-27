@@ -1,4 +1,4 @@
-# Define the advancement class
+# Define the advancement class 
 class Advancement:
     def __init__(self, name, cost, groups, discounts, description, calamity_effect, ability=None):
         self.name = name

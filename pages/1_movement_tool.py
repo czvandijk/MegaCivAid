@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Preset civilizations
+# Preset civilizations 
 preset_civilisations = {
     "3 players East": ["10. Kushan", "16. Indus", "18. Parthia"],
     "4 players East": ["10. Kushan", "12. Persia", "16. Indus", "18. Parthia"],
